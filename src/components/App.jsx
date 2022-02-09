@@ -1,9 +1,19 @@
 /* eslint-disable */
 import React, { Component } from 'react';
+import FlatList from './FlatList';
 
 class App extends Component {
   render() {
-    return <h2>Hello World</h2>
+    return (
+      <div>
+        <FlatList>
+
+        </FlatList>
+        <div>
+
+        </div>
+      </div>
+    );
   }
 }
 
